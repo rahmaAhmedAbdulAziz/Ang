@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <div class="row bg-dark text-white">
+    <div class="row">
+      <h1 style="text-align: center;">skills </h1>
+      <h3 style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Ipsam neque nulla harum qui beatae magnam quisquam saepe,
+        reiciendis quos cumque recusandae ex veniam. Veritatis quas maiores,
+        tenetur nisi repellat reiciendis?</h3>
+    </div>
+
+    <div class="col-6">
+      <h2 style="text-decoration: underline;"> MY Fouces </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-5 text-align: center;" id="text">
+            <h3 style="text-decoration: solid; font-style:italic">
+              front end <br>
+              node <br>
+              bootstrsp <br>
+              mango <br>
+              scss <br>
+              angular <br>
+            </h3>
+          </div>
+
+          <div class="col-7 container-fluid" style="padding: -1px; ">
+            <app-progress *ngFor="let percentage of coursesPercentages" progressPercentage="{{percentage}}"></app-progress>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

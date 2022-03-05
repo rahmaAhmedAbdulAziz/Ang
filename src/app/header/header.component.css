@@ -1,0 +1,18 @@
+
+#img {
+    background-image: url("images.jpg");
+}
+
+h1,h3 {
+    color: rgb(27, 27, 27);
+    text-decoration: solid;
+    margin: 10px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    color: rgb(250, 244, 244);
+    background-color: rgb(56, 56, 56);
+    text-decoration: solid;
+    padding-bottom: 50px;
+}
